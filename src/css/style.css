@@ -85,24 +85,44 @@ textarea {
 }
 /* STYLE RESET END */
 /* DEFAULT CLASS START */
+.text-center {
+    text-align: center;
+}
 .flex-container {
     display: flex;
 }
 .justify-sb {
     justify-content: space-between;
 }
-.align-items {
+.align-center {
     align-items: center;
 }
 .bg-white {
     background-color: #fff;
 }
-.icon {
-    display: inline-block;
+.text-orange {
+    color: #ff5912;
+}
+.text-dark-blue {
+    color: #34404b;
 }
 /* DEFAULT CLASS END */
 /* DEFAULT COMPONENTS START */
-
+.icon {
+    display: inline-block;
+}
+.title {
+    font-family: 'Harmonia_black', sans-serif;
+    font-size: 36px;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+.title.big {
+    font-size: 52px;
+}
+.default-section {
+    padding: 60px 0;
+}
 /* HEADER START */
 .header .top-header {
     padding: 24px 0;
@@ -158,16 +178,65 @@ textarea {
     color: #fff;
     text-align: center;
     line-height: 20px;
-    bottom: 108%;
+    bottom: 112%;
     left: 50%;
     transform: translateX(-50%);
 }
 /* HEADER END */
-
 /* FOOTER START */
 /* FOOTER END */
-
+.product-item {
+    font-family: 'Harmonia_bold', sans-serif;
+    font-size: 18px;
+    padding: 30px 10px;
+    position: relative;
+}
+.product-item:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+.product-item .item-description {
+    padding: 0 32px;
+    margin-top: 30px;
+}
+.product-item .item-title {
+    margin-bottom: 30px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
 /* DEFAULT COMPONENTS END */
-
 /* CUSTOM STYLE START */
+#sale-carousel {
+    padding-left: 8%;
+}
+.sale-carousel {
+    min-height: 650px;
+    background: url('../img/carousel-img-1.jpg') no-repeat center / cover;
+    margin-bottom: 60px;
+}
+.sale-carousel .carousel-indicators {
+    right: auto;
+    bottom: auto;
+    margin: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    flex-direction: column;
+}
+.sale-carousel .carousel-indicators li {
+    width: 10px;
+    height: 18px;
+    opacity: 1;
+    background-color: #fff;
+    margin: 0;
+    border: none;
+    box-shadow: none;
+    transition: all .3s linear;
+}.sale-carousel .carousel-indicators li + li {
+     margin-top: 10px;
+ }
+
+.sale-carousel .carousel-indicators li.active {
+    height: 36px;
+    background-color: #ff5912;
+}
 /* CUSTOM STYLE END */
