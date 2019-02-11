@@ -197,8 +197,23 @@ textarea {
 .header .user-controls a + a {
     margin-left: 28px;
 }
-.header .user-controls .icon.icon-cart-hover-ic {
-    margin-bottom: -4px;
+.icon-search-ic:hover {
+    background-position: -81px 0px;
+}
+.icon-user-ic:hover {
+    background-position: 0px -59px;
+}
+.icon-cart-ic:hover {
+    background-position: -20px -59px;
+}
+.icon-share-ic:hover {
+    background-position: -44px -59px;
+}
+.icon-add-to-cart-ic:hover {
+    background-position: 0px -38px;
+}
+.icon-like-ic:hover {
+    background-position: -38px -80px;
 }
 .count {
     display: inline-block;
@@ -305,6 +320,10 @@ textarea {
 .new-arrivals .load-more {
     margin-top: 78px;
 }
+.icon.icon-cart-ic-hover,
+.icon.icon-cart-ic {
+    margin-bottom: -3px;
+}
 /* DEFAULT COMPONENTS END */
 /* CUSTOM STYLE START */
 #sale-carousel {
@@ -323,10 +342,6 @@ textarea {
 }
 .sale-carousel .order-info span i.icon{
     margin-right: 8px;
-    margin-bottom: -4px;
-}
-.sale-carousel .order-info span i.icon.icon-cart-hover-ic{
-    margin-bottom: -3px;
 }
 .sale-carousel .carousel-indicators {
     right: auto;
