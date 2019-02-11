@@ -138,8 +138,21 @@ textarea {
 .title.big {
     font-size: 52px;
 }
+.sub-title {
+    font-family: 'Harmonia_bold', sans-serif;
+    font-size: 18px;
+    color: #3c4751;
+    margin-bottom: 16px;
+}
 .default-section {
     padding: 60px 0;
+}
+.text-section {
+    font-size: 16px;
+}
+.item-price {
+    font-size: 18px;
+    font-family: 'Harmonia_bold', sans-serif;
 }
 /* HEADER START */
 .header .top-header {
@@ -270,10 +283,23 @@ textarea {
 #sale-carousel {
     padding-left: 8%;
 }
+#sale-carousel .order-info{
+    margin-top: 66px;
+}
 .sale-carousel {
     min-height: 650px;
     background: url('../img/carousel-img-1.jpg') no-repeat center / cover;
     margin-bottom: 60px;
+}
+.sale-carousel .order-info a{
+    margin-left: 30px;
+}
+.sale-carousel .order-info span i.icon{
+    margin-right: 8px;
+    margin-bottom: -4px;
+}
+.sale-carousel .order-info span i.icon.icon-cart-hover-ic{
+    margin-bottom: -3px;
 }
 .sale-carousel .carousel-indicators {
     right: auto;
@@ -295,7 +321,6 @@ textarea {
 }.sale-carousel .carousel-indicators li + li {
      margin-top: 10px;
  }
-
 .sale-carousel .carousel-indicators li.active {
     height: 36px;
     background-color: #ff5912;
