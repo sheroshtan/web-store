@@ -78,6 +78,9 @@ a{
     color: inherit;
     text-decoration: none;
 }
+a:hover {
+    text-decoration: none;
+}
 img {
     max-width: 100%;
 }
@@ -188,9 +191,6 @@ textarea {
 .header .top-header .social-nav a + a{
     margin-left: 20px;
 }
-.header .top-header .social-nav a:hover {
-    color: #ff5912;
-}
 .header .bottom-header {
     padding: 40px 0;
 }
@@ -200,9 +200,9 @@ textarea {
 .header .bottom-header .header-nav a{
     font-size: 16px;
 }
-.header .bottom-header .header-nav a:hover{
+.header .bottom-header .header-nav a:hover,
+.header .top-header .social-nav a:hover {
     color: #ff5912;
-    text-decoration: none;
 }
 .header .bottom-header .header-nav a + a{
     margin-left: 40px;
@@ -291,6 +291,10 @@ textarea {
     opacity: 1;
     z-index: 999;
 }
+.product-item .more-info-on-hover .sizes {
+    margin-bottom: 30px;
+    font-size: 14px;
+}
 .product-item .colors {
     border-bottom: 1px solid #edeff1;
     padding-bottom: 30px;
@@ -303,6 +307,30 @@ textarea {
     height: 13px;
     -webkit-border-radius: 50%;
             border-radius: 50%;
+}
+.product-item .item-controls {
+    margin-top: 34px;
+}
+.product-item .item-controls li + li{
+    margin-left: 28px;
+}
+.load-more {
+    padding: 25px 0;
+    display: block;
+}
+.load-more:hover {
+    text-decoration: none;
+}
+.load-more-circle {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    background-color: #ff5912;
+    -webkit-border-radius: 50%;
+            border-radius: 50%;
+}
+.new-arrivals .load-more {
+    margin-top: 78px;
 }
 /* DEFAULT COMPONENTS END */
 /* CUSTOM STYLE START */
@@ -359,6 +387,9 @@ textarea {
 .sale-carousel .carousel-indicators li.active {
     height: 36px;
     background-color: #ff5912;
+}
+.new-arrivals .text-section {
+    margin-bottom: 80px;
 }
 .kit {
     padding: 20px 60px;
