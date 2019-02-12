@@ -100,9 +100,6 @@ textarea {
 .align-center {
     align-items: center;
 }
-.bg-white {
-    background-color: #fff;
-}
 .bg-red {
     background-color: #e12e3f;
 }
@@ -391,5 +388,49 @@ textarea {
     top: 0;
     left: 0;
     transform: rotate(45deg);
+}
+.sale-discount {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%) rotate(-45deg);
+}
+.sale-discount span {
+    display: block;
+}
+.sale {
+    font-family: Harmonia_italic, sans-serif;
+}
+.discount {
+    font-family: Harmonia_black, sans-serif;
+    font-size: 18px;
+}
+.winter-kit-title {
+    font-size: 22px;
+    font-family: Harmonia_black, sans-serif;
+    margin-bottom: 16px;
+}
+.winter-kit-info {
+    padding-right: 38px;
+    border-right: 1px solid #edeff1;
+}
+.winter-kit-buy {
+    font-size: 32px;
+    font-family: 'Harmonia_black', sans-serif;
+}
+.winter-kit-buy .icon.icon-add-to-cart-ic-hover {
+    margin-right: 20px;
+}
+.adv-area {
+    padding: 30px 0;
+}
+.adv-area .area-title {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 17px;
+}
+.adv-area .area-size {
+    letter-spacing: .6em;
+    opacity: .4;
 }
 /* CUSTOM STYLE END */
