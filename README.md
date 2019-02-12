@@ -14,16 +14,16 @@ Basic template on GULP
 
 1. Клонируем репозиторий
 ```js
-git clone https://github.com/dmgame/template.git
+git clone https://github.com/sheroshtan/web-store-project.git
 ```
-2. Перейдите в склонированную папку или откройте е в редакторе кода
+2. Перейдите в склонированную папку или откройте её в редакторе кода
 ```js
 cd template
 ```
 
 3. Разворачивание проекта (установка всех модулей). У вас должен быть установлен nodejs и gulp глобально
 ```js
- npm up
+ npm i
 ```
 ---
 **Запуск gulp**
