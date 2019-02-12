@@ -133,7 +133,7 @@ textarea {
     font-family: 'Harmonia_black', sans-serif;
     font-size: 36px;
     text-transform: uppercase;
-    margin-bottom: 25px;
+    margin-bottom: 30px;
 }
 .title.big {
     font-size: 52px;
@@ -153,6 +153,12 @@ textarea {
 .item-price {
     font-size: 18px;
     font-family: 'Harmonia_bold', sans-serif;
+}
+.fas.fa-star {
+    color: #f55d43;
+}
+.fas.fa-star.empty-star {
+    color: #e9ecf3;
 }
 /* HEADER START */
 .header .top-header {
@@ -432,5 +438,77 @@ textarea {
 .adv-area .area-size {
     letter-spacing: .6em;
     opacity: .4;
+}
+.best-sales .items-wrap {
+    padding-top: 84px;
+}
+.best-sale-item {
+    padding: 30px;
+}
+.best-sale-item:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+.best-item-img {
+    padding-right: 25px;
+}
+.best-sales .sub-title {
+    display: block;
+    margin-bottom: 32px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.best-item-description .sub-title:hover {
+    color: inherit;
+}
+.best-sales .best-item-description {
+    padding-left: 25px;
+    border-left: 1px solid #eaedef;
+}
+.best-item-rate {
+    opacity: 1;
+    transition: all .2s linear;
+}
+.best-item-description .item-price {
+    opacity: 1;
+    transition: all .2s linear;
+}
+.best-item-rate li {
+    display: inline-block;
+}
+.best-item-description .item-price {
+    font-size: 16px;
+}
+.item-rate-n-price {
+    position: relative;
+}
+.best-item-add-to-cart {
+    opacity: 0;
+    transition: all .3s linear;
+    position: absolute;
+    top: -6px;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+}
+.best-item-add-to-cart:hover {
+    color: #ff5912;
+}
+.best-item-add-to-cart span {
+    font-size: 16px;
+    font-family: Harmonia_semibold, sans-serif;
+}
+.best-sale-item .icon.icon-add-to-cart-ic-hover {
+    margin-right: 8px;
+}
+.best-sale-item:hover .best-item-add-to-cart{
+    opacity: 1;
+    z-index: 9999;
+}
+.best-sale-item:hover .best-item-rate{
+    opacity: 0;
+}
+.best-sale-item:hover .best-item-description .item-price{
+    opacity: 0;
 }
 /* CUSTOM STYLE END */
