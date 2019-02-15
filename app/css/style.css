@@ -367,6 +367,23 @@ button {
 .subscribe-form {
     padding: 35px 45px;
 }
+.subscribe-title {
+    font-size: 18px;
+    font-family: 'Harmonia_bold', sans-serif;
+    text-transform: uppercase;
+    margin-right: 25px;
+}
+.subscribe-info {
+    font-family: Harmonia_italic, sans-serif;
+    font-size: 14px;
+}
+.subscribe-form input {
+    min-width: 270px;
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 14px;
+
+}
 .aside-section {
     padding: 40px;
 }
@@ -431,6 +448,25 @@ input[type="checkbox"]:checked + label::before {
 }
 .ui-slider .ui-slider-range {
     background-color: #34404b;
+}
+.btn {
+    padding: 17px 28px;
+    font-family: Harmonia_semibold, sans-serif;
+    font-size: 14px;
+    color: #fff;
+    -webkit-border-radius: 0;
+            border-radius: 0;
+}
+.btn.btn-default {
+    background-color: #ff5912;
+}
+.btn.btn-default:hover {
+    color: #fff;
+    opacity: .9;
+}
+.btn:focus {
+    -webkit-box-shadow: none;
+            box-shadow: none;
 }
 /* DEFAULT COMPONENTS END */
 /* CUSTOM STYLE START */
