@@ -77,8 +77,21 @@
             <div class="row">
                 <div class="col-md-3">
                     <aside class="sidebar">
-                        <div class="aside-section bg-white"></div>
                         <div class="aside-section bg-white">
+                            <div class="aside-title text-orange">
+                                <span>Categories</span>
+                            </div>
+                            <ul class="categories">
+                                <li><a href="">Man</a></li>
+                                <li><a href="">Women</a></li>
+                                <li><a href="">Children</a></li>
+                                <li><a href="">Hot Deals</a></li>
+                            </ul>
+                        </div>
+                        <div class="aside-section bg-white">
+                            <div class="aside-title text-orange slider-title">
+                                <span>Price Filtter</span>
+                            </div>
                             <div class="range">
                                 <div id="slider-range"></div>
                                 <div class="add-range-value flex-container justify-sp-between">
@@ -94,18 +107,51 @@
                             </div>
                         </div>
                         <div class="aside-section bg-white">
+                            <div class="aside-title text-orange">
+                                <span>Sizes</span>
+                            </div>
                             <form>
                                 <div class="checkbox-group">
                                     <input type="checkbox" id="size-small" name="size-small">
                                     <label for="size-small">Small</label>
                                 </div>
                                 <div class="checkbox-group">
+                                    <input type="checkbox" id="size-medium" name="size-medium">
+                                    <label for="size-medium">Medium</label>
+                                </div>
+                                <div class="checkbox-group">
                                     <input type="checkbox" id="size-large" name="size-large">
                                     <label for="size-large">Large</label>
                                 </div>
+                                <div class="checkbox-group">
+                                    <input type="checkbox" id="size-extra-large" name="size-extra-large">
+                                    <label for="size-extra-large">Extra Large</label>
+                                </div>
                             </form>
                         </div>
-                        <div class="aside-section bg-white"></div>
+                        <div class="aside-section bg-white">
+                            <div class="aside-title text-orange">
+                                <span>Brands</span>
+                            </div>
+                            <form>
+                                <div class="checkbox-group">
+                                    <input type="checkbox" id="brand-reebok" name="brand-reebok">
+                                    <label for="brand-reebok">Reebok</label>
+                                </div>
+                                <div class="checkbox-group">
+                                    <input type="checkbox" id="brand-addidas" name="brand-addidas">
+                                    <label for="brand-addidas">Addidas</label>
+                                </div>
+                                <div class="checkbox-group">
+                                    <input type="checkbox" id="brand-nike" name="brand-nike">
+                                    <label for="brand-nike">Nike</label>
+                                </div>
+                                <div class="checkbox-group">
+                                    <input type="checkbox" id="brand-puma" name="brand-puma">
+                                    <label for="brand-puma">Puma</label>
+                                </div>
+                            </form>
+                        </div>
                     </aside>
                 </div>
                 <div class="col-md-9">
@@ -408,17 +454,37 @@
                             </div>
                         </div>
                     </div>
+                    <a href="" class="load-more bg-white text-center">
+                        <span class="load-more-circle"></span>
+                        <span class="load-more-circle"></span>
+                        <span class="load-more-circle"></span>
+                    </a>
                 </div>
             </div>
         </div>
     </div>
+    <section class="default-section join-us">
+        <div class="container">
+            <div class="subscribe-form bg-white flex-container align-center justify-sb">
+                <div class="subscribe-description flex-container align-center">
+                    <span class="subscribe-title text-orange">News letter</span>
+                    <span class="subscribe-info text-dark-blue">join us now to get all news and special offers</span>
+                </div>
+                <form class="flex-container align-center">
+                    <label for="subscribe-email" class="icon icon-mail-ic"></label>
+                    <input type="email" class="subscribe-input" id="subscribe-email" placeholder="type your email here">
+                    <button class="btn btn-default">join us</button>
+                </form>
+            </div>
+        </div>
+    </section>
 </main>
 <footer class="bg-white">
     <div class="container">
         <div class="flex-container justify-sb align-center">
-            <div class="footer-logo">
+            <div class="footer-logo flex-container">
                 <img src="img/logo.png" alt="">
-                <span>some footer text</span>
+                <span>shopy c 2015 . your copy right here</span>
             </div>
             <div class="footer-nav flex-container">
                 <ul>
@@ -437,13 +503,13 @@
                 </ul>
             </div>
             <div class="payment-methods">
-                <span class="text-orange">Payment methods</span>
+                <span class="text-orange payment-methods-title">Payment methods</span>
                 <ul class="payment-methods-icon flex-container">
                     <li><span class="icon icon-amex-ic"></span></li>
                     <li><span class="icon icon-no-name-cart-1-ic"></span></li>
                     <li><span class="icon icon-visa-ic"></span></li>
                     <li><span class="icon icon-master-cart-ic"></span></li>
-                    <li><span class="icon icon-no-name-cart-2-ic"></span></li>
+                    <li><span class="icon icon-no-name-cart-1-ic"></span></li>
                 </ul>
             </div>
         </div>
