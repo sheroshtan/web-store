@@ -697,4 +697,10 @@ input[type="checkbox"]:checked + label::before {
 .category-wrap .product-item {
     margin-bottom: 30px;
 }
+/* Product slider start */
+.product-slider {
+    width: 330px;
+    margin: 0 auto;
+}
+/* Product slider end */
 /* CUSTOM STYLE END */

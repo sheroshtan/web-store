@@ -35,7 +35,6 @@ $( function() {
 
     }
 
-
     range.slider({
         range: true,
         min: 0,
@@ -46,9 +45,6 @@ $( function() {
         change: changeMinMaxVal
     });
 
-
-
-
     fromInput.on('change', function (e) {
 
         var values = range.slider( "option", "values");
@@ -57,7 +53,6 @@ $( function() {
         range.slider( "option", "values", [ this.value, values[1] ] );
 
     });
-
     toInput.on('change', function (e) {
 
         var values = range.slider( "option", "values");
@@ -66,4 +61,9 @@ $( function() {
 
     });
 
+    // Flexslider init
+    $('.flexslider').flexslider({
+        animation: "slide",
+        controlNav: "thumbnails"
+    });
 } );
