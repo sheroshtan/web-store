@@ -697,10 +697,22 @@ input[type="checkbox"]:checked + label::before {
 .category-wrap .product-item {
     margin-bottom: 30px;
 }
-/* Product slider start */
 .product-slider {
     width: 330px;
     margin: 0 auto;
 }
-/* Product slider end */
+.size-radio input[type='radio'] {
+    display: none;
+}
+.size-radio label {
+    font-size: 14px;
+    color: #34404b;
+    text-transform: uppercase;
+    cursor: pointer;
+    user-select: none;
+}
+.size-radio input[type='radio']:checked + label{
+    color: #ff5912;
+    font-size: 18px;
+}
 /* CUSTOM STYLE END */
