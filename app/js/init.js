@@ -70,4 +70,9 @@ $( function() {
     // formstyler init
     $('.input-amount').styler();
 
+    //slicknav init
+    $('.header-nav').slicknav({
+        appendTo: 'header .bottom-header .container .flex-container.justify-sb',
+        label: ''
+    });
 } );
