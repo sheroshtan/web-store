@@ -182,6 +182,9 @@ button {
     color: #e9ecf3;
 }
 /* HEADER START */
+header {
+    position: relative;
+}
 .header .top-header {
     padding: 24px 0;
     border-bottom: 1px solid #edeff1;
