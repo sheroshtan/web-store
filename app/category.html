@@ -22,6 +22,9 @@
     <!-- Form-Styler -->
     <link rel="stylesheet" href="css/jquery.formstyler.theme.css">
 
+    <!-- Slicknav -->
+    <link rel="stylesheet" href="css/slicknav.css">
+
     <link rel="stylesheet" href="css/sprite.css">
     <link rel="stylesheet" href="css/style.css">
 
@@ -80,8 +83,12 @@
 <main>
     <div class="category-wrap">
         <div class="container">
+            <div class="mobile-sidebar-btn">
+                <i class="fas fa-arrow-circle-right"></i>
+            </div>
+            <div class="overlay"></div>
             <div class="row">
-                <div class="col-md-3">
+                <div class="col-xs-12 col-lg-3 mobile-sidebar-wrap">
                     <aside class="sidebar">
                         <div class="aside-section bg-white">
                             <div class="aside-title text-orange">
@@ -160,7 +167,7 @@
                         </div>
                     </aside>
                 </div>
-                <div class="col-md-9">
+                <div class="col-lg-9">
                     <div class="row">
                         <div class="col-lg-4 col-sm-6">
                             <div class="product-item text-center bg-white">
@@ -487,7 +494,7 @@
 </main>
 <footer class="bg-white">
     <div class="container">
-        <div class="flex-container justify-sb align-center">
+        <div class="footer-content-wrap flex-container justify-sb align-center">
             <div class="footer-logo flex-container">
                 <img src="img/logo.png" alt="">
                 <span>shopy c 2015 . your copy right here</span>
@@ -527,6 +534,7 @@
 <script src="js/bootstrap.min.js"></script>
 <script src="js/jquery.flexslider-min.js"></script>
 <script src="js/jquery.formstyler.min.js"></script>
+<script src="js/jquery.slicknav.min.js"></script>
 <script src="js/init.js"></script>
 </body>
 </html>
